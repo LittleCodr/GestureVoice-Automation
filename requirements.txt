@@ -1,0 +1,24 @@
+#📌 To install all dependencies, run:
+#pip install -r requirements.txt
+
+
+
+# Install OpenCV for computer vision
+opencv-python
+
+# Install MediaPipe for hand and face tracking
+mediapipe
+
+# Install SpeechRecognition for voice commands
+speechrecognition
+
+# Install PyAutoGUI for controlling the mouse and keyboard
+pyautogui
+
+# Install NumPy for numerical operations
+numpy
+
+# Install PyAudio for microphone access (required for voice input)
+pyaudio
+
+
