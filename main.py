@@ -31,6 +31,7 @@ def recognize_speech():
             print("🤷 Couldn't understand the command.")
     return None
 
+
 def process_tracking():
     global prev_x, prev_y, nod_history, shake_history, brightness_history
 
