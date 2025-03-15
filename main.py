@@ -12,7 +12,7 @@ mp_drawing = mp.solutions.drawing_utils
 hands = mp_hands.Hands(min_detection_confidence=0.7, min_tracking_confidence=0.7)
 face_mesh = mp_face_mesh.FaceMesh(min_detection_confidence=0.7, min_tracking_confidence=0.7)
 
-# Initialize Camera
+# Initialize Camera - 1
 cap = cv2.VideoCapture(0)
 screen_width, screen_height = pyautogui.size()
 prev_x, prev_y = 0, 0  # For smooth cursor movement
